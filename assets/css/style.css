@@ -142,7 +142,7 @@ header {
 }
 
 .sections {
-  margin: 30px 0;
+  margin: 0 0 30px 0;
 }
 
 .debug .article-img {
@@ -219,4 +219,19 @@ header {
 
 .w-30{
   width: 30%;
+}
+
+.articles p {
+  text-align: left;
+}
+
+.text-channel {
+  background-color: #F6F6F6;
+}
+
+.wave {
+  width: 120%;
+  opacity: 4%;
+  display: block;
+
 }
