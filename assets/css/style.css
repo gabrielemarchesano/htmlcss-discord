@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.container
+{
+  width: 80%;
+  max-width: 1200px;
+  margin: auto
+}
+
 .logo-img {
   height: 30px;
 }
@@ -96,7 +103,7 @@ header {
 }
 
 .upperSection {
-  max-width: 60%;
+  width: 50%;
   margin: 50px auto;
   color: white;
 
@@ -107,6 +114,7 @@ header {
 
   p {
     margin: 15px;
+    text-align: center;
   }
 }
 
@@ -203,4 +211,12 @@ header {
 .reminder {
   justify-content: space-between;
   align-items: center;
+}
+
+.w-70{
+  width: 70%;
+}
+
+.w-30{
+  width: 30%;
 }
