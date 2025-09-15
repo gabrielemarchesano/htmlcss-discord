@@ -17,6 +17,10 @@
   background-color: chocolate;
 }
 
+header {
+  background-color: #3161E0;
+}
+
 .d-flex {
   display: flex;
 }
@@ -186,4 +190,9 @@
 .reminder {
   justify-content: space-between;
   align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
