@@ -30,6 +30,12 @@ header {
   height: 300px;
 }
 
+.upperPage {
+  height: 400px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+
 .h-container {
   padding: 10px 20px;
 }
@@ -58,6 +64,12 @@ header {
 .nav {
   padding: 10px;
   gap: 10px;
+  
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+  }
 }
 
 .btn {
@@ -77,15 +89,6 @@ header {
   border: none;
 }
 
-/* .btn-access {
-  
-} */
-
-/* .btn-open {
-  background-color: rgb(32, 30, 46);
-  color: white
-} */
-
 .debug .upperSection {
   background-color: aqua;
   height: 170px;
@@ -96,11 +99,6 @@ header {
   margin: 50px auto;
 }
 
-/* .debug .upperSection-btns {
-  background-color: rgb(9, 9, 70);
-  height: 50px;
-  width: 500px;
-} */
 
 .upper-flex {
   justify-content: center;
@@ -190,9 +188,4 @@ header {
 .reminder {
   justify-content: space-between;
   align-items: center;
-}
-
-a {
-  color: white;
-  text-decoration: none;
 }
