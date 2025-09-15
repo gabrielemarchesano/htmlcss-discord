@@ -276,6 +276,7 @@ header {
 .list-container {
   border-bottom: 1px solid #8EA1E1;
   margin: 10px;
+  padding: 2rem;
 }
 
 
@@ -295,8 +296,6 @@ ul {
 li a {
     text-decoration: none;
     color: white;
-
-    
   }
 
 a:hover {
@@ -314,4 +313,12 @@ a:hover {
 
 img {
   width: 100%;
+}
+.ita {
+  width: 10%;
+}
+
+details {
+  display: inline-block;
+  color: white;
 }
