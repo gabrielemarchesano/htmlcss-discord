@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-img {
+  height: 30px;
+}
+
+.debug * {
+  border: 1px dashed;
+}
+
+.debug header {
+  height: 50px;
+  background-color: chocolate;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.debug .upperPage {
+  background-color: green;
+  height: 300px;
+}
+
+.h-container {
+  padding: 10px 20px;
+}
+
+.h-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.l-flex {
+  align-items: center;
+}
+
+.debug .logo {
+  background-color: darkcyan;
+  height: 30px;
+  width: 100px;
+}
+
+.debug .nav {
+  background-color: violet;
+  height: 30px;
+  width: 500px;
+}
+
+.nav {
+  padding: 10px;
+  gap: 10px;
+}
+
+.btn {
+  background-color: white;
+  padding: 0 10px;
+  border-radius: 1rem;
+  height: 2rem;
+}
+
+.debug .btn {
+  background-color: red;
+  width: 5rem;
+
+}
+
+.btn {
+  border: none;
+}
+
+/* .btn-access {
+  
+} */
+
+/* .btn-open {
+  background-color: rgb(32, 30, 46);
+  color: white
+} */
+
+.debug .upperSection {
+  background-color: aqua;
+  height: 170px;
+}
+
+.upperSection {
+  width: 60%;
+  margin: 50px auto;
+}
+
+/* .debug .upperSection-btns {
+  background-color: rgb(9, 9, 70);
+  height: 50px;
+  width: 500px;
+} */
+
+.upper-flex {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.debug .sections {
+  background-color: slateblue;
+}
+
+.debug .inner-section {
+  background-color: blue;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  gap: 10px;
+}
+
+.sections {
+  margin: 30px 0;
+}
+
+.debug .article-img {
+  background-color: blueviolet;
+  height: 200px;
+  width: 250px;
+}
+
+.debug .articles {
+  background-color: bisque;
+  width: 200px;
+}
+
+.debug .last-elements {
+  background-color: rgb(165, 25, 25);
+  width: 50%;
+  height: 500px;
+  margin: auto;
+}
+
+.lastArticle {
+  text-align: center;
+}
+
+.debug .footer {
+  background-color: teal;
+  height: 400px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.debug .list-container {
+  background-color: coral;
+  height: 300px;
+  width: 900px;
+}
+
+.list-container {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.debug .social {
+  background-color: darksalmon;
+  height: 120px;
+  width: 120px;
+}
+
+.debug .list {
+  background-color: lightcoral;
+  height: 200px;
+  width: 100px;
+}
+
+.debug .reminder {
+  background-color: yellow;
+  height: 70px;
+  width: 900px;
+}
+
+.reminder {
+  justify-content: space-between;
+  align-items: center;
+}
