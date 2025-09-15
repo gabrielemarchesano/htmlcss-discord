@@ -74,7 +74,7 @@ header {
 
 .btn {
   background-color: white;
-  padding: 0 10px;
+  padding: 2px 15px;
   border-radius: 1rem;
   height: 2rem;
 }
@@ -87,6 +87,7 @@ header {
 
 .btn {
   border: none;
+  margin-right: 10px;
 }
 
 .debug .upperSection {
@@ -95,10 +96,24 @@ header {
 }
 
 .upperSection {
-  width: 60%;
+  max-width: 60%;
   margin: 50px auto;
+  color: white;
+
+  h1 {
+    font-size: 2rem;
+    margin: 1.1rem;
+  }
+
+  p {
+    margin: 15px;
+  }
 }
 
+.btn-open {
+  background-color: rgb(19, 19, 31);
+  color: white;
+}
 
 .upper-flex {
   justify-content: center;
