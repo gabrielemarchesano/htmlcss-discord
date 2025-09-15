@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+h1 {
+    font-size: 2rem;
+    margin: 1.1rem 0;
+  }
+
 .container
 {
   width: 80%;
@@ -107,11 +112,6 @@ header {
   margin: 50px auto;
   color: white;
 
-  h1 {
-    font-size: 2rem;
-    margin: 1.1rem;
-  }
-
   p {
     margin: 15px;
     text-align: center;
@@ -142,7 +142,7 @@ header {
 }
 
 .sections {
-  margin: 0 0 30px 0;
+  margin: 50px 0;
 }
 
 .debug .article-img {
@@ -225,13 +225,18 @@ header {
   text-align: left;
 }
 
-.text-channel {
+.voice-channel {
   background-color: #F6F6F6;
+  margin: 0;
 }
 
 .wave {
-  width: 120%;
+  width: 100%;
   opacity: 4%;
   display: block;
 
+}
+
+.upsidedown {
+  rotate: 180deg;
 }
