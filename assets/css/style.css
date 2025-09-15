@@ -322,3 +322,10 @@ details {
   display: inline-block;
   color: white;
 }
+
+.socials {
+  color: white;
+  width: 90px;
+  height: 15px;
+  justify-content: space-between;
+}
