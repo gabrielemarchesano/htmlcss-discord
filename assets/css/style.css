@@ -260,9 +260,34 @@ header {
 
 .meeting {
   margin-top: 0;
+  padding-bottom: 10px;
   background-color: #F6F6F6;
 
   h1 {
     margin-top: 0;
   }
 }
+
+.footer {
+  background-color: #23272A;
+}
+
+.f-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discord-color a, .discord-color{
+ color: #8EA1E1;
+}
+
+ul {
+  list-style-type: none;
+  
+  
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+  }
